@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Montbarbon - Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <button class="burger" id="burger">&#9776;</button>
+        <div class="nav-links" id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-content-row"> 
+                <img class="profile-image" src="images/picture-emma.webp" alt="Emma Montbarbon">
+                <div class="hero-content-column">
+                    <h2>Emma Montbarbon</h2>
+                    <p class="location"><span class="french-flag">🇫🇷</span> Based in France</p>
+                </div>
+            </div>
+            <h1>Fullstack Developer</h1>
+            <div class="social-links">
+                <a href="https://github.com/Dosylia" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emma-montbarbon-23098723a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="cv-emma-montbarbon.pdf" class="cv-button" target="_blank"><i class="fa-solid fa-file"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <p class="bio-short"> I discovered programming through Minecraft, where I learned Java to create plugins for my own server. After working various jobs—including teaching English—I ran a small design business using Photoshop. The pandemic led me to shift careers, and after exploring accounting, I chose to follow my true passion: becoming a web developer.</p>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            <div class="tech-categories">
+                <!-- JavaScript Category -->
+                <div class="tech-group">
+                    <div class="tech-items">
+                        <span class="tech-button"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="tech-button"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="tech-button"><i class="fab fa-sass"></i> SASS</span>
+                        <span class="tech-button"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <span class="tech-button"><i class="fab fa-php"></i> PHP</span>
+                        <span class="tech-button"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tech-button"><i class="fas fa-leaf"></i> MongoDB</span>
+                        <span class="tech-button"><i class="fab fa-react"></i> React</span>
+                        <span class="tech-button"><i class="fab fa-react"></i> React Native</span>
+                        <span class="tech-button"><i class="fab fa-node-js"></i> Node.JS</span>
+                        <span class="tech-button"><i class="fab fa-github"></i> GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="experience-tabs">
+            <button class="tab-button active" onclick="switchTab('work')">Work Experience</button>
+            <button class="tab-button" onclick="switchTab('education')">Education</button>
+            </div>
+
+            <div class="tab-content active" id="work">
+            <!-- Work Experience Entries -->
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Self-employed | Photographer & Designer</h3>
+                <span class="date">Jan 2021 - Mar 2023</span>
+                <ul>
+                <li>Logo and banner design using Adobe Suite</li>
+                <li>Managed social media for promotion</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Sales Assistant | Carrefour, Crêches-sur-Saône</h3>
+                <span class="date">Nov 2022 - Jan 2023</span>
+                <ul>
+                <li>Video game sales support</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Secretary Accountant | Hello Dej, Bourg-en-Bresse</h3>
+                <span class="date">May 2022 - Nov 2022</span>
+                <ul>
+                <li>Office administration and accounting tasks</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="tab-content" id="education">
+            <!-- Education Entries -->
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Full Stack Web Developer (Bac+2)</h3>
+                <span class="date">2024 - OpenClassrooms</span>
+                <p>Complete responsive web apps, front-end/back-end integration, and web project management.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Technical Professional Degree | Secretary Accountant (Level 4 / Bac+1)</h3>
+                <span class="date">2022 - IFRA Bourg-en-Bresse</span>
+                <p>Visitor reception, MS Office management (Word, Excel, PowerPoint).</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="timeline"></div>
+                <h3>Bac Littéraire</h3>
+                <span class="date">2016 - Lycée Edgar Quinet, Bourg-en-Bresse</span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section">
+        <div id="projects-container" class="container">
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form action="contact.php" method="POST" class="contact-form">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <input type="text" name="name" required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" required>
+                        <label>Email Address</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone">
+                        <label>Phone Number (optional)</label>
+                    </div>
+                    <div class="input-group full-width">
+                        <textarea name="message" rows="5" required></textarea>
+                        <label>Your Message</label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button" name="submit">
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-nav">
+                <h3>Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h3>Socials</h3>
+                <a href="https://github.com/Dosylia" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/emma-montbarbon-23098723a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Montbarbon Emma. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

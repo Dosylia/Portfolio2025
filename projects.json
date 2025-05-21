@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "title": "Kaza",
+    "github": "https://github.com/Dosylia/Kaza",
+    "hosting": "https://kaza.pages.dev/",
+    "description": "React and SASS single-page app for apartment rentals with static data.",
+    "technologies": [
+      "fa-brands fa-react",
+      "fa-brands fa-js",
+      "fa-brands fa-sass",
+      "fa-brands fa-html5"
+    ],
+    "picture": ["kaza/kaza-1.webp", "kaza/kaza-2.webp", "kaza/kaza-3.webp"]
+  },
+  {
+    "id": "2",
+    "title": "Booki",
+    "github": "https://github.com/Dosylia/Booki",
+    "hosting": "https://dosylia.github.io/Booki/",
+    "description": "Figma design remake in pure HTML and CSS without provided code.",
+    "technologies": ["fa-brands fa-html5", "fa-brands fa-css3-alt"],
+    "picture": ["booki/booki-1.webp"]
+  },
+  {
+    "id": "3",
+    "title": "DBTaxi",
+    "github": "https://github.com/Dosylia/DBTaxi",
+    "hosting": "https://www.db-taxi.fr/",
+    "description": "Client website project including deployment and hosting management.",
+    "technologies": [
+      "fa-brands fa-html5",
+      "fa-brands fa-php",
+      "fa-brands fa-css3-alt",
+      "fa-brands fa-js"
+    ],
+    "picture": [
+      "dbtaxi/dbtaxi-1.webp",
+      "dbtaxi/dbtaxi-2.webp",
+      "dbtaxi/dbtaxi-3.webp"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Nina Carducci",
+    "github": "https://github.com/Dosylia/NinaCarducci",
+    "hosting": "https://dosylia.github.io/NinaCarducci/",
+    "description": "Website optimization fixing accessibility, SEO, and performance issues.",
+    "technologies": [
+      "fa-brands fa-js",
+      "fa-brands fa-html5",
+      "fa-brands fa-css3-alt"
+    ],
+    "picture": ["nina-carducci/nina-carducci-1.webp"]
+  },
+  {
+    "id": "5",
+    "title": "URSG",
+    "github": "https://github.com/Dosylia/URSGMVC",
+    "hosting": "https://ur-sg.com",
+    "description": "Gaming social platform revamped with MVC and best practices.",
+    "technologies": [
+      "fa-brands fa-html5",
+      "fa-brands fa-php",
+      "fa-brands fa-css3-alt",
+      "fa-brands fa-js"
+    ],
+    "picture": ["ursg/ursg-1.webp"]
+  },
+  {
+    "id": "6",
+    "title": "Mon vieux grimoire",
+    "github": "https://github.com/Dosylia/Mon_Vieux_Grimoire",
+    "hosting": "",
+    "description": "Backend for book rating site using Node, Express, and MongoDB.",
+    "technologies": ["fa-brands fa-node", "fa-brands fa-js"],
+    "picture": ["mon-vieux-grimoire/mon-vieux-grimoire-1.webp"]
+  },
+  {
+    "id": "7",
+    "title": "URSG mobile app",
+    "github": "https://github.com/Dosylia/URSG_Mobile",
+    "hosting": "https://play.google.com/store/apps/details?id=com.dosylia.URSG&pcampaignid=web_share",
+    "description": "Mobile app for URSG built with React Native and Expo.",
+    "technologies": ["fa-brands fa-react", "fa-brands fa-android"],
+    "picture": [
+      "ursg-mobile/ursg-mobile-1.jpg",
+      "ursg-mobile/ursg-mobile-2.jpg"
+    ]
+  }
+]
