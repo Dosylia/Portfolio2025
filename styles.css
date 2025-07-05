@@ -195,6 +195,7 @@ margin-bottom: 40px;
     justify-content: center;
     margin-bottom: 2rem;
     width: 800px;
+    max-width: 100%;
 }
 
 .experience-item {

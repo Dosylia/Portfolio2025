@@ -9,6 +9,10 @@
             exit;
         }
 
+        if (!empty($_POST['website'])) {
+            exit("Spam detected.");
+        }
+
         $to = "emma.montbarbon@outlook.fr";
         $subject = "💌 Nouveau message de votre portfolio";
 
